@@ -1,7 +1,7 @@
 # selenaUTM
 Web Scraping using Selenium
 
-This script basically go through all application and find application for SCSR Program and return their name and application ID.
+This script basically go through all application and find application for SCSR Program and return the applicant name and application ID.
 
 
 Disclaimer:

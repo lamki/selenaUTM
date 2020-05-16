@@ -15,12 +15,11 @@ def iterateWeb(brw):
     j = 0;
 
     # browser.get('https://intake.xxx.edu.my/intake/summary/' + str(i))
-    # for i in range(56000, 57375):
     for i in range(56500, 57375):
         ++j
         sleep(0.05)
         browser.get('https://intake.xxx.edu.my/intake/summary/' + str(i))
-        # browser.get('https://intake.xxx.edu.my/intake/summary/56753')
+        # browser.get('https://intake.xxx.edu.my/intake/summary/xxxxx')
         try:
             name = browser.find_element_by_xpath('/html/body/div[2]/div[1]/div[1]/span').text
             SCSR = browser.find_element_by_xpath('/html/body/div[2]/div[3]/div[2]/div[2]/div/h4').text

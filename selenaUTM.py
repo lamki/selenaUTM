@@ -31,5 +31,5 @@ def iterateWeb(brw):
 
 
 if __name__ == "__main__":
-    browser = webdriver.Chrome("C:\\Users\\Administrator_1\\Downloads\\chromedriver_win32\\d.exe")
+    browser = webdriver.Chrome("C:\\Users\\xxx\\xxx\\d.exe")
     login(browser)
